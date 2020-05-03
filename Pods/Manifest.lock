@@ -1,0 +1,22 @@
+PODS:
+  - CustomPods (0.1.2)
+
+DEPENDENCIES:
+  - CustomPods (from `https://github.com/samarth220194/CustomPods.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  CustomPods:
+    :branch: master
+    :git: https://github.com/samarth220194/CustomPods.git
+
+CHECKOUT OPTIONS:
+  CustomPods:
+    :commit: b0fe45419512965dc4e17943aeef4ad0cb2fb206
+    :git: https://github.com/samarth220194/CustomPods.git
+
+SPEC CHECKSUMS:
+  CustomPods: 1eb3ebf4675ee8d10ce0f0cd4aeb26d6c351d8ed
+
+PODFILE CHECKSUM: 4dc88e73da6af993711fd8d220da9baa20cce2ff
+
+COCOAPODS: 1.9.1

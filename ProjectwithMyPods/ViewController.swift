@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import CustomPods
 
 class ViewController: UIViewController {
 
+    var customView: FantasticView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        customView = FantasticView()
+        customView?.frame = self.view.bounds
+        self.view.addSubview(customView)
         // Do any additional setup after loading the view.
     }
-
-
+    
 }
 
